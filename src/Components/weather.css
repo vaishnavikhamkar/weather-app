@@ -1,0 +1,49 @@
+.Weather {
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    border: 2px solid blue;
+    background:darkblue;    
+    margin: 100px 0px 100px 50px;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    margin-left: 15px;
+    margin-bottom: 27px;
+}
+
+.Search-icon{
+    /* margin-left:50px; */
+    color:Grey;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.city {
+    border-radius: 5px;
+    width: -webkit-fill-available;
+}
+
+.details {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-family: auto;
+}
+
+img{
+    /* display: grid; */
+    justify-content: center;
+    margin-left: 55px;
+}
